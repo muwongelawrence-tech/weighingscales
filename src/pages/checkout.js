@@ -36,7 +36,7 @@ const CheckOut = () => {
 
     const router = useRouter();
 
-    const [ user , setUser ] = useState({});
+    // const [ user , setUser ] = useState({});
 
      //decode the jwt and get the current user.
     //  let jwt = "";
