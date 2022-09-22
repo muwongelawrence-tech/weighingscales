@@ -18,7 +18,7 @@ function Footer2() {
 
   return (
 
-    <div className ="grid grid-cols-1 md:grid-cols-4 gap-y-10 px-32 py-14 bg-gray-800 text-gray-100">
+    <div className ="grid grid-cols-1 md:grid-cols-4 gap-y-10 pl-16 pr-16 py-14 bg-gray-800 text-gray-100">
 
     <div className ="space-y-4 text-sm ">
 
@@ -70,8 +70,8 @@ function Footer2() {
 
              <h2 className = "font-bold" ><LanguageIcon/> LANGUAGES </h2>
 
-               <ul className = "flex space-x-3 mb-3 text-sm ">
-                <li className = "pl-5">English</li>
+               <ul className = "flex space-x-3 ">
+                <li className = "">English</li>
                 <li>Luganda</li>
                 <li>Swahili</li>
                </ul>

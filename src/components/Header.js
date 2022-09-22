@@ -17,7 +17,7 @@ const Header = () => {
     //const [session] = useSession();
     //const userName = useSelector(selectName);
 
-    const [ user , setUser ] = useState({});
+    // const [ user , setUser ] = useState({});
 
     const router = useRouter();
     
@@ -96,7 +96,7 @@ const Header = () => {
                     className = "cursor-pointer "
                     />
 
-                    <h3 className='text-gray-100 font-medium'> Seconds</h3>
+                    <h3 className='text-gray-100 font-medium hidden md:inline-flex'> Seconds</h3>
 
                 </div>
 
