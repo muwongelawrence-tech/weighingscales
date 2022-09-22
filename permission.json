@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "african-craft-shoes",
+  "private_key_id": "9592ce668c6b67b74a9416869a05d4bd336c86d7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCy2ERdpi8eUP33\nAQVDmDCFiDVyrP48o4OfKiHi1NLmm7sI2BGi7GedO8i35dZIp1IFAw+FR86l7Xk1\ndiCww9iZP+lkLjZgQprJu/5w0kngjz6LB79ux6WV0p2Yg/pBj1IS2pllVSzpToxr\nmdFQuG8wQVUEYHcJ4VRu3WWl0X29LLSme9OT9sEESICFbzzLt+NRu+2oZN1755PA\njn+LocRDvHJQhB0sMSXfalpc/8U9/FiXP630devuoZcbuWN+g403fb0Gm7nxiv2m\nf3mgr5P/fehMSWbjgwDSEN/yQQ1HsMKrrrRJ2br5LCEq+Y8IK9ZVVkx8eNdFf6Qm\nDupuNm11AgMBAAECggEABCf4dsCs6aRyMnJIoAiCYCgJLfANPHWEUoeVIANYH1nR\nH+R9jG63/bRs9rEVqLySsGEg1DUV/U8mePKU0ebLOsx8bQKR6uzBUhzXTeHlK53I\nk0yLy1RCadfqJ6gxgaKGAsAnvm4bTBSyOLHrZlfS5akvA5oGSil9X9IvUYorxOCi\nEblRS0FyZaFGa5IZdXMxrjLZuImqcHzYKr9LPle0E0rflpBW+116AfIwLmUl6Ivl\n+OPivrIuRn9opUh7DF66D3WOl0yVVdHl8vxwdWmQ/R8b2DxgHVp7vIyarDearhmG\n8ZWpcdFL9ABMkqzJhTP3nzl8TQWV8WvN2ttIabnLQQKBgQDxUNF5JU5hKGRm9dq3\n7CfqEhOBN+9xueHB+RgP3/kvHS4pycaq98qoIKswg1M6XjZlY4M1CqzyyNd+Xyq2\n02QALKA3YinPEk/zGmp30ZJM/U7EoIqP4lbIbe62Se6+YU79JOfGJw+3lKPx0bc6\nT1i3prgbE2TbaYH5Z+gFl58o8QKBgQC9ukkx044K9f/+hj91/TRX0SJNRwsxPK4i\nh9jwJuB8cTIwwJMp+dQF046QdG3LTbxzJ1JNHLqFuWzIcRBiOuCc+ssGFjZOpjWI\ndyx2/gHPt7RFkSZ99nuLFeom1HuB4Xj16ttDnN2M1vVYs/d/lh3H6nCNcCgpEv+j\nPF0kNNqsxQKBgQCXqciNUCILtBwuDZSSBY0scoHps6L8oeu+QnSZ/ZUZxEgwIU2I\nREYNFsMgsVjMlUuwuzNKUdRSnmG5Xcx1rTPrXCCxzjMinoq66j5B4egGFSm9MH0F\nYyZRv63IyXyQEI5ZUSmOAxzAr12+bKSwtA+5FMIe2jiIIa57do9/fESesQKBgHFG\n/RajwgYnVF3KF6/BqvPXqMxM45DVMv7o7wyLmbKS/y1+fR8ty3pjEpaK/VbKJf72\n9juWMINQ73NJlkef8aWoU3lh37DbqdC9nq25AKnde+OhQ0Mn3CFxxyjB6q/kSA1D\n2QAoc1r4qOn6IYZqwYMwJV09Hq1Pa5QxoUbRy9IlAoGBAKM833TFhudofC54Dfbf\nE2tvA8DDlw7fTDMQfPoSAp26IvvlbGWW/7y+FET3Mn/Tcor3SafBMOahfABwaBpu\ny864MJHb9ajR0B1LNsAyjcQrDjKY4xg5VIzo53/hNsV8puigI0TDDOfW/WXjBKKt\n7ZPYbAkTC7nlJ8q0pCUQ/RCv\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-zypav@african-craft-shoes.iam.gserviceaccount.com",
+  "client_id": "102174746173299098613",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-zypav%40african-craft-shoes.iam.gserviceaccount.com"
+}
