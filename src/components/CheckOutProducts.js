@@ -17,7 +17,7 @@ const CheckOutProducts = ({ _id, title, price, description, category, image, rat
 
       const addItemToCart = async () => {
        
-        const product = { _id, title, price, description, category, image, rating, numberInStock, quantity };
+      const product = { _id, title, price, description, category, image, rating, numberInStock, quantity };
 
         // sending the product as an action to the Redux store.
         dispatch(addToBasket(product));

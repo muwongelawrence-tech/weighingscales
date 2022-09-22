@@ -4,14 +4,11 @@ import { getShoes } from "../pages/api/fakeshoesdetails";
 
 
  let products = getShoes();
-// let products = [];
-let materials = [];
-
 
 const initialState = {
-  items: products,
-  itemsAdded :[],
-  rawMaterials:[] ,
+  items: [],
+  itemsAdded :getShoes(),
+  
 };
 
 export const basketSlice = createSlice({
@@ -19,11 +16,11 @@ export const basketSlice = createSlice({
   initialState,
   reducers: {
     
-    getData:(state, action) => {
-      products = action.payload;
-      //console.log(products);
-      state.itemsAdded = action.payload;
-    },
+    // getData:(state, action) => {
+    //   products = action.payload;
+    //   //console.log(products);
+    //   state.itemsAdded = action.payload;
+    // },
     
     // adding product to cart reducer.
     addToBasket: (state, action) => {

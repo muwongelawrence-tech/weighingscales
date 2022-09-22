@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from '../components/Header';
 import Image from 'next/image';
 import { useSelector} from 'react-redux';
-import { selectItems, selectQuantity }  from '../slices/basketSlice';
+import { selectItemAdded, selectItems, selectQuantity }  from '../slices/basketSlice';
 import { selectTotal }  from '../slices/basketSlice';
 import CheckOutProducts from '../components/CheckOutProducts';
 import Currency from 'react-currency-formatter';
@@ -22,7 +22,10 @@ const stripePromise = loadStripe(process.env.stripe_public_key);
 
 
 const CheckOut = () => {
+
     const items = useSelector(selectItems);
+    //   const items = useSelector(selectItemAdded);
+    
       // console.log(items);
     const number = useSelector(selectQuantity);
   
