@@ -8,7 +8,6 @@ import CheckOutProducts from '../components/CheckOutProducts';
 import Currency from 'react-currency-formatter';
 import { loadStripe } from '@stripe/stripe-js';
 import http from "./api/httpService";
-import Footer from '../components/Footer';
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useRouter } from 'next/router';

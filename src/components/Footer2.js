@@ -101,7 +101,7 @@ function Footer2() {
         <p> Company Email</p>
     </div>
 
-    <div className = "mt-2 col-span-full text-center text-sm md:text-base mb-8">
+    <div className = "mt-2 col-span-full text-center text-sm md:text-base mb-2">
       Copyright &copy;
        <span>{ year }</span>
         All rights reserved | cc  

@@ -17,15 +17,15 @@ const Banner = () => {
          interval = { 5000 }
          > 
          <div>
-          <img  loading = "lazy" src="/shoes/secondsbg1.jpeg" alt="first"/>
+          <img  loading = "lazy" src="/products/secondsbg1.jpeg" alt="first"/>
          </div>
 
          <div>
-           <img  loading = "lazy" src="/shoes/secondsbg1.jpeg" alt="second"/>
+           <img  loading = "lazy" src="/products/secondsbg1.jpeg" alt="second"/>
          </div>
          
          <div>
-         <img  loading = "lazy"  src="/shoes/background2.jpg" alt="third"/>
+         <img  loading = "lazy"  src="/products/background2.jpg" alt="third"/>
          </div>
          
          </Carousel>

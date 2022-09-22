@@ -8,7 +8,7 @@ const shoes = [
     price:12000,
     description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
     category: "air_mass",
-    image : "/shoes/w1.jpg",
+    image : "/products/w1.jpg",
     numberInStock : 45,
     quantity : 0
    },
@@ -19,7 +19,7 @@ const shoes = [
        price:15000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
         category: "small_mass",
-        image : "/shoes/w2.jpg",
+        image : "/products/w2.jpg",
         numberInStock : 45,
         quantity : 0
     
@@ -31,7 +31,7 @@ const shoes = [
        price:14000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
         category: "heavy_mass",
-        image : "/shoes/springScale.jpg",
+        image : "/products/springScale.jpg",
         numberInStock : 45,
         quantity : 0
         
@@ -43,7 +43,7 @@ const shoes = [
        price:15000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
         category: "air_mass",
-        image : "/shoes/w1.jpg",
+        image : "/products/w1.jpg",
         numberInStock : 45,
         quantity : 0
        
@@ -56,7 +56,7 @@ const shoes = [
        price:12000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
         category: "small_mass",
-        image : "/shoes/w2.jpg",
+        image : "/products/w2.jpg",
         numberInStock : 45,
         quantity : 0
         
@@ -68,7 +68,7 @@ const shoes = [
        price:12000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
         category: "heavy_mass",
-        image : "/shoes/springScale.jpg",
+        image : "/products/springScale.jpg",
         numberInStock : 45,
         quantity : 0
         
@@ -80,19 +80,19 @@ const shoes = [
        price:12000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
         category: "heavy_mass",
-        image : "/shoes/springScale.jpg",
+        image : "/products/springScale.jpg",
         numberInStock : 45,
         quantity : 0
         
     },
 
     {
-        _id:"1900700",
+        _id:"1900700fdf",
        title : "Weighing_scale 8",
        price:12000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
         category: "heavy_mass",
-        image : "/shoes/springScale.jpg",
+        image : "/products/springScale.jpg",
         numberInStock : 45,
         quantity : 0
         

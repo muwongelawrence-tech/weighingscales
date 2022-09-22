@@ -89,7 +89,7 @@ const Header = () => {
                         e.preventDefault();
                          router.push('/');
                     }}
-                    src = "/shoes/Seconds logo.png"
+                    src = "/products/Seconds logo.png"
                     width = { 70 }
                     height = { 60 }
                     objectFit = "contain"

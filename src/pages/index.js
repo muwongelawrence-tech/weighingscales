@@ -2,7 +2,6 @@ import Head from "next/head";
 import Header from '../components/Header';
 import Banner from '../components/Banner';
 import ProductFeed from "../components/productFeed";
-import Footer from '../components/Footer';
 import { useSelector, useDispatch } from 'react-redux';
 import {useRouter} from 'next/router';
 import { selectSendMessageIsOPen } from '../slices/menuSlice';

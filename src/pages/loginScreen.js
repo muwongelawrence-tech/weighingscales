@@ -3,7 +3,8 @@ import Image from 'next/image';
 import SignInScreen from '../components/SignInScreen';
 import Login_Product from '../components/Login_Product';
 import { getShoes } from './api/fakeshoesdetails';
-import Footer from '../components/Footer';
+import Footer2 from '../components/Footer2';
+
 
 
 
@@ -107,7 +108,7 @@ export default function Login () {
              </div>
          </div>
 
-         { showfooter && <Footer/> }
+         { showfooter && <Footer2/> }
 
       </>
     );
