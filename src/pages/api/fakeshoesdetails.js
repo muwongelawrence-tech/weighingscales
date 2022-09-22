@@ -3,7 +3,7 @@ let current_email = "muwongelawrence44@gmail.com";
 
 const shoes = [
     {
-     _id:"1900700A",
+     _id: 1,
     title : "Weighing_scale 1",
     price:12000,
     description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
@@ -14,7 +14,7 @@ const shoes = [
    },
 
     {
-        _id:"1900700B",
+        _id:2,
        title : "Weighing_scale 2",
        price:15000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
@@ -26,7 +26,7 @@ const shoes = [
     },
 
     {
-        _id:"1900700C",
+        _id:3,
        title : "Weighing_scale 3",
        price:14000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
@@ -38,7 +38,7 @@ const shoes = [
     },
 
     {
-        _id:"1900700yytt",
+        _id:4,
        title : "Weighing_scale 4",
        price:15000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
@@ -51,7 +51,7 @@ const shoes = [
     },
        
     {
-        _id:"1900700D",
+        _id:5,
        title : "Weighing_scale 5",
        price:12000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
@@ -63,7 +63,7 @@ const shoes = [
     },
 
     {
-        _id:"1900700E",
+        _id:6,
        title : "Weighing_scale 6",
        price:12000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
@@ -75,7 +75,7 @@ const shoes = [
     },
 
     {
-        _id:"1900700T",
+        _id:7,
        title : "Weighing_scale 7",
        price:12000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
@@ -87,7 +87,7 @@ const shoes = [
     },
 
     {
-        _id:"1900700fdf",
+        _id:8,
        title : "Weighing_scale 8",
        price:12000,
        description  :`This is one of the most performing weighing scale out there .try it today and testify the results.`,
