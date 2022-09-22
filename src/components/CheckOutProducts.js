@@ -7,7 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addToBasket, decreaseItem, selectItemAdded } from '../slices/basketSlice';
 import { removeFromBasket} from '../slices/basketSlice';
 import { updateShoe } from '../pages/api/shoesService';
-import { updateRawMaterial } from '../pages/api/rawmaterialService';
+// import { updateRawMaterial } from '../pages/api/rawmaterialService';
 
 const CheckOutProducts = ({ _id, title, price, description, category, image, rating, numberInStock, quantity }) => {
       
