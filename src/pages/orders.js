@@ -3,7 +3,6 @@ import Header from '../components/Header';
 import db from '../../firebase';
 import moment from 'moment';
 import Order from '../components/order';
-import Footer from '../components/Footer';
 import { getCurrentEmail } from './api/fakeshoesdetails';
 import SuccessHeader from '../components/SuccessHeader';
 
@@ -18,7 +17,9 @@ const Orders = ({ orders }) => {
     return ( 
         <div >
             {/* <Header/> */}
+
             <SuccessHeader/>
+
             <main className = "max-w-screen-lg mx-auto p-10 ">
                 <h1 className ="text-3xl border-b mb-2 pb-1 border-yellow-400">Your orders  </h1>
                   
