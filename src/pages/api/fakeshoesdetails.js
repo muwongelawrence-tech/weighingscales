@@ -1,7 +1,7 @@
 
 let current_email = "muwongelawrence44@gmail.com";
 
-const shoes = [
+const scales = [
     {
      _id: 1,
     title : "Weighing_scale 1",
@@ -103,8 +103,8 @@ const shoes = [
 
 ];
 
-export  function getShoes(){
-  return shoes;
+export  function getScales(){
+  return scales;
 }
 
 export function getShoe(id){

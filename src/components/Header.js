@@ -199,9 +199,11 @@ const Header = () => {
                  e.preventDefault();
                  router.push('/');
             }} > Home </p>
+
              <marquee width="100%" direction="left" height="20px">
               <p className = "text-bold h-5 ">Explore our services and Products available At seconds we respect execution and we deliver services in seconds.</p>
             </marquee>
+            
            </div>
            </header>
      );

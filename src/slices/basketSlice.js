@@ -1,13 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { toast } from "react-toastify";
-import { getShoes } from "../pages/api/fakeshoesdetails";
+import { getScales } from "../pages/api/fakeshoesdetails";
 
 
- let products = getShoes();
+ let products = getScales();
 
 const initialState = {
   items: [],
-  itemsAdded :getShoes(),
+  itemsAdded :getScales(),
   
 };
 
