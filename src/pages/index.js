@@ -17,6 +17,9 @@ import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { loadStripe } from '@stripe/stripe-js';
 import Footer2 from "../components/Footer2";
+import Header1 from "../components/Header1";
+import Header2 from "../components/Header2";
+import Banner2 from "../components/Banner2";
 
 export default function Home( ) {
 
@@ -41,15 +44,27 @@ export default function Home( ) {
 
 return (
   
-     <div className = "bg-gray-100 relative">
+     <div className = "bg-gray-100 relative p-10">
 
       <Head>
-        <title>Seconds</title>
+        <title>HiWEIGH tech Limited</title>
       </Head>
 
-      <Header/>
+      {/* <Header/> */}
+       
 
-      <ToastContainer/>
+        <div className=" border-2 my-2 ">
+         <Header1/>
+        </div>
+
+        <div className="border-2 my-4">
+         <Header2/>
+        </div>
+
+        
+        <ToastContainer/>
+
+    
       
       { showdropdown && (
           <div className = "bg-white rounded-lg p-4 py-2 w-48 mt-2 shadow-xl mb-2 absolute z-30 ml-2">
@@ -62,22 +77,26 @@ return (
           </div>)
       }
             
+      <div className="">
+         <Banner2/>
+      </div>
       
 
       <main className = "max-w-screen-2xl mx-auto ">
 
         {/* Banner */}
-         <Banner />
+         {/* <Banner /> */}
+         
 
         {/* ProductFeed */}
-        <ProductFeed />
+        {/* <ProductFeed /> */}
           
       </main>
 
 
       <footer className = "max-w-screen-2xl mx-auto">
          
-          <Footer2/>
+          {/* <Footer2/> */}
       </footer>
 
     </div>

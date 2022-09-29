@@ -15,6 +15,7 @@ module.exports = {
       },
       backgroundImage: theme => ({
         'craft_background': "url('/background/craft-shoes-bg.jpg')",
+        'banner_background':"url(/scales/pexels-mali-maeder-50634.jpg)"
        })
     },
   },

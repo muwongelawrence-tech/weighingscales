@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import { MenuIcon, SearchIcon, ShoppingCartIcon} from "@heroicons/react/outline";
+import { MenuIcon, SearchIcon, ShoppingCartIcon, UserIcon } from "@heroicons/react/outline";
 import {useRouter} from 'next/router';
 import { useSelector, useDispatch } from 'react-redux';
-import { SearchItem, selectQuantity }  from '../slices/basketSlice';
+import { SearchItem, selectQuantity, selectTotal }  from '../slices/basketSlice';
 import { useState } from 'react';
 import { openSendMessage , closeSendMessage} from '../slices/menuSlice';
 import { useEffect } from 'react';
@@ -17,6 +17,9 @@ function Header1() {
     //const items = useSelector(selectItems);
 
     const number = useSelector(selectQuantity);
+
+    // checking the total
+    const total = useSelector(selectTotal);
 
     const dispatch = useDispatch();
 
@@ -43,9 +46,9 @@ function Header1() {
   return (
    <header>
           {/* top nav */}
-          <div className = "flex px-4 sm:justify-between bg-amazon_blue md:p-1 flex-grow py-2 space-x-3">
+          <div className = "flex px-4 sm:justify-between bg-white md:p-1 flex-grow py-2 space-x-3">
 
-{/* Left */}
+         {/* Left */}
         <div  className = "mt-2 flex items-center flex-grow sm:flex-grow-0">
                 <Image
                 onClick = { (e) => {
@@ -64,64 +67,41 @@ function Header1() {
 
 {/* middle  */}
 
-<div className = 'hidden  sm:inline-flex  items-center w-[600px] mt-4 h-10 rounded-md bg-green-400   hover:bg-green-500  cursor-pointer'>
+<div className = 'hidden  sm:inline-flex  items-center w-[600px] mt-6 h-10 border-2   cursor-pointer'>
    
+  
    <input 
-      placeholder = "Search....."  
+      placeholder = "Search for....."  
       className = "p-2 h-full w-full flex-grow flex-shrink rounded-l-md focus:outline-none px-4" type="text"
-      onChange = { e => { setSearch(e.target.value);}}
+      onChange = { e => { setSearch(e.target.value);} }
    />
 
-    <SearchIcon className = "h-12 p-4" />
+    <SearchIcon className = "h-12 p-4 text-blue-500" />
     
 </div>
 
 {/* Right */}
-<div className = "text-white flex items-center text-xs space-x-6 mx-6 whitespacenowrap pr-4">
+<div className = " flex  text-xs  p-4  justify-evenly w-[400px]">
 
-   <div  className = "link " >
-       <p className = "flex flex-col text-sm text-center "> Hello , </p>
-       <p className = "flex flex-col text-sm text-center"> clients name </p>
-       {/* <p onClick = { e => {
-            e.preventDefault();
-            router.push('/loginForm');
-          }} 
-       className = "font-extrabold md:text-sm">Edit products </p> */}
-   </div>
+  <div className=' h-10 w-4 my-2'>
+      <UserIcon className='h-12 p-4 bg-blue-50 text-blue-600' />
+  </div>
 
-   <div className = "" >
+   <div 
+    //  onClick = { e => {
+    //     e.preventDefault();
+    //     router.push('/checkout');
+    //     } } 
+    className='text-white flex items-center h-10 p-6 bg-blue-600 my-2 w-[170px] cursor-pointer'
+   >
 
-       <p className = "cursor-pointer link font-extrabold md:text-sm"
-       >Orders </p>
+    <ShoppingCartIcon className = "h-10"/>
 
-       <p className = "cursor-pointer link font-extrabold md:text-sm">Edit products </p>
-
-   </div>
-
-   <div onClick = { e => {
-        e.preventDefault();
-        router.push('/checkout');
-        } } 
-      className = " relative link flex items-center" >
-          
-       <span className = "absolute top-0 right-0 md:right-6 h-4 w-4 bg-green-400 text-center rounded-full text-black font-bold" >
-           { number }
-       </span>
-
-       <ShoppingCartIcon className = "h-10"/>
-
-       <p className = "hidden md:inline font-extrabold md:text-sm mt-2">Cart</p>
+    <span className='text-sm text-white'> { total } UGX</span>
 
    </div>
 
-    <div 
-     onClick = { e => {
-          e.preventDefault();
-          setShowSearch(false);
-     }}
-    className = "flex bg-gray-300 rounded-sm md:hidden">
-      <SearchIcon className = "h-12 p-4" />
-    </div>
+  
 </div>
 
 
@@ -129,7 +109,7 @@ function Header1() {
 
 {/* SearchBar on Mobile Device */}
 
-<div className = {`flex items-center bg-amazon_blue   flex-grow p-4 md:hidden ${ showsearch && "hidden"}`}>
+{/* <div className = {`flex items-center bg-amazon_blue   flex-grow p-4 md:hidden ${ showsearch && "hidden"}`}>
 
 <div className = {`flex items-center h-10  rounded-md bg-green-400   hover:bg-green-500 flex-grow cursor-pointer ${showsearch && "hidden"}`}>
       <input 
@@ -147,12 +127,12 @@ function Header1() {
   </svg>
 </div>
 
-</div>
+</div> */}
 
 
 {/* bottom nav */}
 
-<div className = {`flex items-center p-2 pl-6 space-x-3 bg-amazon_blue-light text-white text-sm `}>
+{/* <div className = {`flex items-center p-2 pl-6 space-x-3 bg-amazon_blue-light text-white text-sm `}>
 <p className = "link flex items-center ">
 <MenuIcon  onClick = { controlDropdown }  className = "h-6 mr-1" />
 </p>
@@ -166,7 +146,7 @@ router.push('/');
 <p className = "text-bold h-5 ">Explore our services and Products available At seconds we respect execution and we deliver services in seconds.</p>
 </marquee>
 
-</div>
+</div> */}
    </header>
   );
 }
