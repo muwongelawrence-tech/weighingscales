@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import Header from '../components/Header';
 import Image from 'next/image';
 import { useSelector} from 'react-redux';
 import { selectItemAdded, selectItems, selectQuantity }  from '../slices/basketSlice';
@@ -18,6 +17,7 @@ import UseflutterHooks from "../components/useFlutterwaveHooks";
 import Footer2 from '../components/Footer2';
 import { toast } from "react-toastify";
 import Header1 from '../components/Header1';
+import Header from '../components/Header';
 
 const stripePromise = loadStripe(process.env.stripe_public_key);
 
@@ -78,7 +78,8 @@ const CheckOut = () => {
     return ( 
         <div className = "bg-gray-100 relative">
 
-           <Header1/>
+           {/* <Header1/> */}
+           <Header />
 
            { showdropdown && (
             <div className = "bg-white rounded-lg p-4 py-2 w-48 mt-2 shadow-xl mb-2 absolute z-30 ml-2">
