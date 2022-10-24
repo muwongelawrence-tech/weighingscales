@@ -44,22 +44,22 @@ export default function Home( ) {
 
 return (
   
-     <div className = "bg-gray-100 relative p-10">
+     <div className = "bg-gray-100 relative">
 
       <Head>
         <title>HiWEIGH tech Limited</title>
       </Head>
 
-      {/* <Header/> */}
+      <Header/>
        
 
-        <div className=" border-2 my-2 ">
+        {/* <div className=" border-2 my-2 ">
          <Header1/>
         </div>
 
         <div className="border-2 my-4">
          <Header2/>
-        </div>
+        </div> */}
 
         
         <ToastContainer/>
@@ -77,26 +77,26 @@ return (
           </div>)
       }
             
-      <div className="">
+      {/* <div className="">
          <Banner2/>
-      </div>
+      </div> */}
       
 
       <main className = "max-w-screen-2xl mx-auto ">
 
         {/* Banner */}
-         {/* <Banner /> */}
+         <Banner />
          
 
         {/* ProductFeed */}
-        {/* <ProductFeed /> */}
+        <ProductFeed />
           
       </main>
 
 
       <footer className = "max-w-screen-2xl mx-auto">
          
-          {/* <Footer2/> */}
+          <Footer2/>
       </footer>
 
     </div>
